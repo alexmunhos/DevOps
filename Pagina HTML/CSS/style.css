@@ -1,0 +1,135 @@
+.border3 {
+    background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 8px;  
+}
+
+.Total {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-weight: bold;
+
+}
+
+.manopimps1 {
+    height: 400px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url('../IMG/piano.jpg');
+}
+
+.ProdutosComprados {
+    color:white;
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}  
+
+.carrin {
+    color: rgb(212, 171, 36);
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 3.0em;
+}
+
+h4 {
+    font-size: small;
+    /* font-weight: bold; */
+}
+
+.botao1 {
+    opacity: none;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 8px;
+    border: 5px solid rgb(212, 171, 36);
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    color: rgb(212, 171, 36);
+}
+
+.botao2 {
+    opacity: none;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 5px solid rgb(212, 171, 36);
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    color: rgb(212, 171, 36);
+}
+
+.carrinOrganizado {
+    height: 60px;
+}
+
+.nombre {
+    color: rgb(212, 171, 36);
+    font-size: 2.0em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.quant {
+    color: rgb(212, 171, 36);
+    font-size: 2.0em;
+    font-weight: bold;
+
+}
+
+.val {
+    color: rgb(212, 171, 36);
+    font-size: 2.0em;
+    font-weight: bold;
+}
+
+.nombre1 {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.quant1 {
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.val1 {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.botao1:hover	{
+	color: rgb(0, 0, 0);
+	background-color: gray;
+}
+
+.botao2:hover	{
+	color: rgb(0, 0, 0);
+	background-color: gray;
+}
+
+.inputend	{
+	width: 100%;
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.3em;
+	overflow: hidden;
+	border-radius: none;
+	margin: auto;
+	align-items: center;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

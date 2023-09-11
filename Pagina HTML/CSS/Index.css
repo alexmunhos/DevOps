@@ -1,0 +1,339 @@
+/*----------------------MENU--------------------*/
+.preto{
+    background-color:black;
+    height: 70px;
+}
+
+.menu1{
+    color: white;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.absound-logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+.car{
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.aaa1{
+    height: 3px;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.aaa{
+    height: 3px;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.menuhamb:hover{
+    cursor: pointer;
+}
+
+.haaa:hover{
+    cursor: pointer;
+}
+
+.pointercar:hover{
+    cursor: pointer;
+}
+
+.hambpreto{
+    height: 3px;
+    background-color: black;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+/*---------------------HAMBURGUER-ANIMACAO-------------------------*/
+input {
+    display: none;
+}
+
+.barra {
+	z-index: 10;
+    background-color: #000000;
+	opacity: 0.92;
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    transition: all .2s linear;
+    left: -280px;
+}
+
+#check:checked~.barra {
+    transform: translateX(280px);
+}
+
+.itens {
+	z-index: 1;
+    margin-top: 50px;
+}
+
+.burg {
+	opacity: 2;
+	z-index: 1;
+    height: 60px;
+    width: 300px;
+    background-color: rgba(250, 246, 246, 0.6);
+	width: 150px;
+	border: 3px solid #fff;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	margin: 20px auto 0 auto;
+	text-align: center;
+	font-size: 1.5em;
+	border-radius: 10px;
+	padding: 9px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.burg:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+/*---------------------------CAROUSEL------------------------*/
+
+@media (max-width: 576px){
+    .img1{
+        height: 250px;
+    }
+
+    .img2{
+        height: 250px;
+    }
+}
+
+/*------------------------INSTRUMENTOS-------------------------*/
+
+.espaco{
+    height: 50px;
+}
+
+.risco{
+    border-bottom: 2px solid black;
+}
+
+.cordas{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2.2em;
+    height: 100px;
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.card:hover{
+    box-shadow: black 5px 5px 10px;
+    cursor: pointer;
+}
+
+.card-text{
+    font-size: 1.8em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.card-body{
+    background-color: #E1E1E1;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.card-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.botaopro{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.botaopro:hover{
+    box-shadow: black 3px 3px 10px;
+    cursor: pointer;
+}
+
+/*---------------------------------NOVIDADE DA SEMANA---------------------------------*/
+
+.titulonovi{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.7em;
+    color: white;
+}
+
+.descnovi{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.0em;
+    color: rgb(212, 171, 36);
+}
+
+.preconovi{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.corponovi{
+    background-color: #101010;
+}
+
+.novicomp:hover{
+    box-shadow: black 5px 5px 10px;
+    cursor: pointer;
+}
+
+/*-------------------------------NOSSOS PRODUTOS-------------------------------*/
+
+.padpro{
+    padding: 20px 10px;
+}
+
+.cordaspro{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 3.0em;
+    height: 100px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    border-top: solid black 2px;
+}
+
+/*-------------------------------RODAPE--------------------------------*/
+
+.caixa{
+    height: 230px;
+    background-color: #111;
+}
+
+.ultimacaixa{
+    height: 140px;
+    background-color: #000;
+}
+
+.menu2{
+    color: white;
+    text-align: center;
+    border-right: #444 solid 2px;
+}
+
+.absound-logo1{
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.entrega{
+    color: white;
+    text-align: center;
+    padding: 8px 0px;
+    border-left: #444 solid 2px;
+}
+
+.entrega-logo{
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.linkbaixo:hover {
+	color: #fff;
+}
+
+.linkbaixo{
+	color: #999;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.novidades{
+    color: white;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.faceinsta{
+    border-radius: 5px;
+}
+
+.form-control{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-outline-success{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.faceinsta:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 576px){
+    .caixa{
+        height: 600px;
+    }
+
+    .ultimacaixa{
+        height: 140px;
+    }
+
+    .menu2{
+        border: none;
+        margin-bottom: 30px;
+    }
+
+    .entrega{
+        border: none;
+    }
+    
+    .card-text{
+        font-size: 1.1em;
+    }
+
+    .card-title{
+        font-size: 1.0em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+    .caixa{
+        height: 420px;
+    }
+    .absound-logo1{
+        font-size: 2.0em;
+    }
+    .novidades{
+        font-size: 1.5em;
+    }
+    .entrega-logo{
+        font-size: 2em;
+    }
+    .entrega{
+        border: none;
+    }
+    .ultimacaixa{
+        height: 140px;
+    }
+}

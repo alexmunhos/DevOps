@@ -1,0 +1,316 @@
+/*----------------------MENU--------------------*/
+.preto{
+    background-color:black;
+    height: 70px;
+}
+
+.menu1{
+    color: white;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.absound-logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+.car{
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.aaa1{
+    height: 3px;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.aaa{
+    height: 3px;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.menuhamb:hover{
+    cursor: pointer;
+}
+
+.haaa:hover{
+    cursor: pointer;
+}
+
+.pointercar:hover{
+    cursor: pointer;
+}
+
+.hambpreto{
+    height: 3px;
+    background-color: black;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.login{
+    text-align: center;
+}
+
+.loginins{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 18px;
+}
+
+.semdeco{
+    text-decoration: none;
+}
+
+/*---------------------HAMBURGUER-ANIMACAO-------------------------*/
+input {
+    display: none;
+}
+
+.barra {
+	z-index: 10;
+    background-color: #000000;
+	opacity: 0.92;
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    transition: all .2s linear;
+    left: -280px;
+}
+
+#check:checked~.barra {
+    transform: translateX(280px);
+}
+
+.itens {
+	z-index: 1;
+    margin-top: 50px;
+}
+
+.burg {
+	opacity: 2;
+	z-index: 1;
+    height: 60px;
+    width: 300px;
+    background-color: rgba(250, 246, 246, 0.6);
+	width: 150px;
+	border: 3px solid #fff;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	margin: 20px auto 0 auto;
+	text-align: center;
+	font-size: 1.5em;
+	border-radius: 10px;
+	padding: 9px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.burg:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+/*---------------------PRODUTO------------------------------------------*/
+
+.fundo-pro{
+    background-color: #e1e1e1;
+    border-radius: 5px;
+}
+
+.imgpro{
+    border-radius: 30px;
+}
+
+.nomepro{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.0em;
+    padding-top: 25px;
+    border-bottom: black solid 2px;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+}
+
+.precopro{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.descpro{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.0em;
+}
+
+.botao{
+    text-decoration: none;
+    font-size: 2.0em;
+    color: #999;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+.caixabotao{
+    height: 47px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    height: 47px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: black 3px 3px 10px;
+
+}
+
+/*------------------------------NOTA PRODUTO---------------------------*/
+
+.nota{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: solid 2px black;
+    padding-bottom: 20px;
+}
+
+.valornota{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+/*-------------------------------RODAPE--------------------------------*/
+
+.caixa{
+    height: 230px;
+    background-color: #111;
+}
+
+.ultimacaixa{
+    height: 180px;
+    background-color: #000;
+}
+
+.menu2{
+    color: white;
+    text-align: center;
+    border-right: #444 solid 2px;
+}
+
+.absound-logo1{
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.entrega{
+    color: white;
+    text-align: center;
+    padding: 8px 0px;
+    border-left: #444 solid 2px;
+}
+
+.entrega-logo{
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.linkbaixo:hover {
+	color: #fff;
+}
+
+.linkbaixo{
+	color: #999;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.novidades{
+    color: white;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.faceinsta{
+    border-radius: 5px;
+}
+
+.form-control{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-outline-success{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.faceinsta:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 576px){
+    .caixa{
+        height: 600px;
+    }
+
+    .ultimacaixa{
+        height: 180px;
+    }
+
+    .menu2{
+        border: none;
+        margin-bottom: 30px;
+    }
+
+    .entrega{
+        border: none;
+    }
+    
+    .card-text{
+        font-size: 1.1em;
+    }
+
+    .card-title{
+        font-size: 1.0em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+    .caixa{
+        height: 420px;
+    }
+    .absound-logo1{
+        font-size: 2.0em;
+    }
+    .novidades{
+        font-size: 1.5em;
+    }
+    .entrega-logo{
+        font-size: 2em;
+    }
+    .entrega{
+        border: none;
+    }
+    .ultimacaixa{
+        height: 180px;
+    }
+}

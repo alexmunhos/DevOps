@@ -1,0 +1,96 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	background-color: gray;
+	background-image: url('../IMG/FUNDO-REGISTRO (1).jpg');
+}
+
+.caixa {
+	background-color:rgba(0, 0, 0, 0.9);
+	border-radius: 17px;
+	margin-bottom: 20px;
+	color: white;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
+
+input	{
+	width: 100%;
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.3em;
+	overflow: hidden;
+	border-radius: none;
+	margin: auto;
+	align-items: center;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.butaum {
+	cursor: pointer;
+    opacity: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 8px;
+    border: 5px solid rgb(212, 171, 36);
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    color: rgb(212, 171, 36);
+    font-family: 'Courier New', Courier, monospace;
+	font-size: x-large;
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+
+.butaum2 {
+	cursor: pointer;
+    opacity: none;
+    margin-left: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    color: rgb(212, 171, 36);
+    font-family: 'Courier New', Courier, monospace;
+	font-size: x-large;
+	margin-right: 18px;
+}
+
+.butaum:hover	{
+	color: rgb(0, 0, 0);
+	background-color: gray;
+}
+
+h1	{
+	margin-bottom: 10%;
+	font-size: 2.7em;
+	color: rgb(212, 171, 36);
+}
+
+input:focus	{
+	border-bottom: white;
+}
+
+a	{
+	text-decoration: none;
+	text-orientation: unset;
+}
+
+a:hover	{
+	color: yellow;
+}
+
+.contaaa {
+	font-size: large;
+	margin-left: 18px;
+}
+
+
+
