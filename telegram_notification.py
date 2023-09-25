@@ -18,5 +18,5 @@ def send_telegram_message(message):
         print(f'Erro ao enviar mensagem para o Telegram: {str(e)}')
 
 if __name__ == '__main__':
-    message = "FUNCIONOOOOOOOU."
+    message = "Foi realizado um Pull Request(PR)."
     send_telegram_message(message)
