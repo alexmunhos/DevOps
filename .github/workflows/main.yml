@@ -1,0 +1,17 @@
+name: Notification
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  notification:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Out Code
+        uses: actions/checkout@v2
+
+      - name: Run Notification Script
+        run: python telegram_notification.py
