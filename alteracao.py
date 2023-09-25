@@ -1,1 +1,1 @@
-print("Alteração para que inicie um Pull Request(PR)")
+print("Alteração para que eu possa iniciar um Pull Request(PR)")
